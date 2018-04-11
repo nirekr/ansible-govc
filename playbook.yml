@@ -1,0 +1,5 @@
+- name: VRO using govc
+  hosts: all
+  tasks:
+  - name: Deploy vRO using govc
+    command: sh /ansible-govc/gov.sh
