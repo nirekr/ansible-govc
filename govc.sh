@@ -1,4 +1,4 @@
-#!/bin/bash/
+     #!/bin/bash/
      wget https://github.com/vmware/govmomi/releases/download/v0.16.0/govc_linux_amd64.gz
      gunzip govc_linux_amd64.gz && mv govc_linux_amd64 /usr/local/bin/govc && chmod 755 /usr/local/bin/govc
      echo -e "\nThe version of govc is"
