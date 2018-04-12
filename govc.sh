@@ -15,5 +15,6 @@
      export GOVC_DATACENTRE=Infrastructure
      export GOVC_CLUSTER=SW-Build
      
-     govc import.ova -options=vro.json /OVAs/VMware-vRO-Appliance-7.3.0.21553-5521409_OVF10.ova
+     curl -L http://artifactory.mpe.lab.vce.com:8080/artifactory/concourse-demo/vra-ova.json
+     govc import.ova -options=vro.json http://artifactory.mpe.lab.vce.com:8080/artifactory/concourse-demo/VMware-vRO-Appliance-7.3.0.21553-5521409_OVF10.ova
      echo "\n\nDeployment Complete. All Done!"
