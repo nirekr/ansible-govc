@@ -2,4 +2,4 @@
   hosts: all
   tasks:
   - name: Deploy vRO using govc
-    command: sh /ansible-govc/gov.sh
+    command: sh gov.sh
