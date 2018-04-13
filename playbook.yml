@@ -1,3 +1,4 @@
+
 - name: VRO using govc
   hosts: all
   tasks:
